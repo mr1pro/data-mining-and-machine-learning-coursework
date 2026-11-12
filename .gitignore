@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+*.egg-info/
+
+# Data (large files shouldn't go in git by default)
+data/*.csv
+data/*.xlsx
+data/*.parquet
+!data/.gitkeep
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
